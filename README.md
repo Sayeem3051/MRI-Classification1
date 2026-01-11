@@ -159,11 +159,39 @@ brain_tumor_model.keras
 
 ## 🌐 Deployment (Streamlit)
 
-The trained model is deployed using **Streamlit**, allowing users to:
+The trained model is deployed using **Streamlit**, providing an interactive web interface for real-time brain tumor classification.
 
-* Upload MRI images
-* Receive real-time predictions
-* View predicted tumor class instantly
+### 🔍 Application Features
+
+* Upload MRI images through the UI
+* Real-time prediction using the trained CNN model
+* Displays predicted tumor class instantly
+
+### 🖼️ Demo Preview
+
+Below are demo assets showcasing the running Streamlit application:
+
+#### 📸 Application Screenshot
+
+Below is a screenshot showing model accuracy & validation performance during training:
+
+````markdown
+![Training and Validation Accuracy](assets/Accuracy&Validation.png)
+```markdown
+![Streamlit App Screenshot](assets/streamlit_app.png)
+````
+
+#### 🎥 Application Demo Video
+
+A demo video showing the **Streamlit application running live**:
+
+````markdown
+[▶️ Watch Streamlit Demo Video](assets/streamlit_reacording.mp4)
+```markdown
+[▶️ Watch Streamlit Demo Video](assets/streamlit_demo.mp4)
+````
+
+> 💡 Tip: If GitHub does not render the video inline, it will still be downloadable and clickable.
 
 ---
 
